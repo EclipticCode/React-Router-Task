@@ -5,7 +5,7 @@ import { Link, Outlet } from 'react-router-dom'
 const NavigationMenu = () => {
   return (
     
-    <div className='links conatainer'>
+    <div className='links conatainer-fluid'>
       <div className='row'>
       <nav className="navigation-menu">
         <ul className='nav  justify-content-center'>
@@ -17,7 +17,7 @@ const NavigationMenu = () => {
         </ul>
       </nav>
       </div>
-      <Outlet/>
+      <Outlet className="outlet"/>
     </div>
   )
 }

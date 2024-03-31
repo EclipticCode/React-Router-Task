@@ -6,3 +6,8 @@
     margin-bottom: 60px;
     box-shadow: 0px 4px 8px #0000001a
 }
+@media(max-width:767px){
+    div{
+     margin-left: 40px;
+    }
+ }
