@@ -3,7 +3,7 @@ import Card1 from './Cards/Card1'
 
 const All = () => {
   const cardDatas = [
-    {id:"1",img:".public/FS1.webp",cardTitle:"Best Web Development Online Courses",cardBody:"By Isha Sharma",cardDate:"26 Mar, 2024" },
+    {id:"1",img:"./public/FS1.webp",cardTitle:"Best Web Development Online Courses",cardBody:"By Isha Sharma",cardDate:"26 Mar, 2024" },
     {id:"10",img:"./src/assets/BC1.jpeg",cardTitle:"A Guide To Learning Blockchain Technology",cardBody:"By Lukesh S",cardDate:"13 Feb, 2024" },
     {id:"2",img:"./src/assets/FS2.jpg",cardTitle:"6 Essential Preequisities For Learning ReactJS",cardBody:"By RamKumar",cardDate:"29 Mar, 2023" },
     {id:"5",img:"./src/assets/DS2.jpg",cardTitle:"Can A Commerce Student Do Data Science",cardBody:"By Saakshi Priyadarshini",cardDate:"25 Mar, 2024" },
