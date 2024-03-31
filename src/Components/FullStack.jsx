@@ -13,7 +13,7 @@ const FullStack = () => {
     <div className='container'>
         <div className="row">
             {cardDatas.map(data=>(
-              <div className='col-sm-12 col-md-6 col-lg-4 col-xl-3 justify-content-center margin' key={data.id}>
+              <div className='col-sm-12 col-md-6 col-lg-4 justify-content-center margin' key={data.id}>
               <Card1
               {...data}/>
               </div>
