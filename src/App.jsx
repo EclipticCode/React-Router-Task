@@ -8,8 +8,6 @@ import CyberSecurity from './Components/CyberSecurity'
 import Blockchian from './Components/Blockchian'
 
 
-
-
 const App = () => {
   return (
     <BrowserRouter>
